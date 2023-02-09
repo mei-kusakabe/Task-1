@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footwear House</title>
+    <!-- fontawesome-for-icons -->
+    <script src="https://kit.fontawesome.com/1ec4934975.js" crossorigin="anonymous"></script>
+    <!-- custom-css-stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap-css-stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="container-fluid">
+        <!-- nav-bar section starts -->
+        <section class="nav-section">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <a class="navbar-brand fs-2 fw-bold text-black gap-5" href="#">
+                        FootWear House
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5 gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link active fs-5 text-secondary" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-secondary" href="#product">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-secondary" aria-current="page" href="#contact">Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-secondary" aria-current="page" href="#about">About</a>
+                            </li>
+
+                    </div>
+                </div>
+                <!-- <button type="button"
+                    class="btn btn-outline-info fw-bold ms-auto btn-lg mx-5 d-none d-lg-block">Register</button> -->
+            </nav>
+        </section>
+        <!-- nav-bar section ends -->
+
+        <!-- top-banner starts -->
+        <section class="my-5 top-banner" id="banner">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div class="text-white text-center">
+                                    <h1 class="display-5 fw-bold">Choose your friendly footwear
+                                    </h1>
+                                    <p class="fs-3">We can provide you with the most cosy footwear.</p>
+                                    <button type="button"
+                                        class="common-bg-color fs-5 border-0 px-5 py-3 rounded mt-5  text-white ms-auto me-auto fw-bold btn-lg d-block">Get
+                                        Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div class="text-white text-center">
+                                    <h1 class="display-5 fw-bold">Choose your friendly footwear
+                                    </h1>
+                                    <p class="fs-3">Our shoes are designed with comfort and durability in mind.</p>
+                                    <button type="button"
+                                        class="common-bg-color fs-5 border-0 px-5 py-3 rounded mt-5  text-white ms-auto me-auto fw-bold btn-lg d-block">Get
+                                        Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div class="text-white text-center">
+                                    <h1 class="display-5 fw-bold">Choose your friendly footwear
+                                    </h1>
+                                    <p class="fs-3">We're dedicated to providing stylish and functional footwear for
+                                        every occasion.</p>
+                                    <button type="button"
+                                        class="common-bg-color fs-5 border-0 px-5 py-3 rounded mt-5  text-white ms-auto me-auto fw-bold btn-lg d-block">Get
+                                        Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- top-banner ends -->
+
+    </header>
+    <!-- header section ends -->
+
+    <main>
+        <!-- products section starts -->
+        <section class="course-full container mt-5" id="product">
+            <div class="course-header text-center">
+                <h1 class="display-5 fw-bold">Discover Our Popular
+                    Products
+                </h1>
+                <div class="card mt-5 product-text">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 cols-md-12 col-lg-12">
+                            <div class="card-body my-2">
+                                <p class="card-subtitle mb-2 fs-5 text-white ">At our store, we believe that
+                                    the perfect
+                                    pair of shoes can make all the
+                                    difference in your day, and we are dedicated to helping you find the perfect fit for
+                                    both your feet
+                                    and your style.
+                                    </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course-details my-5 pt-5">
+                <div class="mx-auto mt-4 ">
+                    <div class="row row-cols-1 row-cols-lg-2 g-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12 col-md-5 col-lg-5 an rounded-start">
+                                        <img src="https://i.postimg.cc/fRwf6y0x/shoe-1-bata-removebg-preview.png"
+                                            class="img-fluid w-100 h-100" alt="...">
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12 cols-md-7 col-lg-7 product-text rounded-end">
+                                        <div class="card-body my-2">
+                                            <h1 class="card-title fs-4 fw-bold text-white fst-italic">Bata Footwear
+                                            </h1>
+                                            <br>
+                                            <p class="card-subtitle mb-2 fs-5 text-white">Are you looking for a pair of
+                                                shoes that are both comfortable and stylish? We are here to assist you!
+                                            </p>
+                                            <h5 class="card-text text-white fw-bold">Price : 20$</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12 col-md-5 col-lg-5 an rounded-start">
+                                        <img src="https://i.postimg.cc/hGXTBd47/shoe-2-adidas-removebg-preview.png"
+                                            class="img-fluid w-100 h-100" alt="...">
+                                    </div>
+
+                                    <div class="col-sm-6 col-xs-12 cols-md-7 col-lg-7 product-text rounded-end">
+                                        <div class="card-body my-2">
+                                            <h1 class="card-title fs-4 fw-bold text-white fst-italic">Adidas Footwear
+                                            </h1>
+                                            <br>
+                                            <p class="card-subtitle mb-2 fs-5 text-white">Are you looking for a pair of
+                                                shoes that are both comfortable and stylish? We are here to assist you!
+                                            </p>
+                                            <h5 class="card-text text-white fw-bold">Price : 20$</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12 col-md-5 col-lg-5 an rounded-start">
+                                        <img src="https://i.postimg.cc/HWzx6LdG/shoe-3-nike-removebg-preview.png"
+                                            class="img-fluid w-100 h-100" alt="...">
+                                    </div>
+
+                                    <div class="col-sm-6 col-xs-12 cols-md-7 col-lg-7 product-text rounded-end">
+                                        <div class="card-body my-2">
+                                            <h1 class="card-title fs-4 fw-bold text-white fst-italic">Nike Footwear
+                                            </h1>
+                                            <br>
+                                            <p class="card-subtitle mb-2 fs-5 text-white">Are you looking for a pair of
+                                                shoes that are both comfortable and stylish? We are here to assist you!
+                                            </p>
+                                            <h5 class="card-text text-white fw-bold">Price : 20$</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12 col-md-5 col-lg-5 an rounded-start">
+                                        <img src="https://i.postimg.cc/nL1bnCdp/shoe-4-redtape-removebg-preview.png"
+                                            class="img-fluid w-100 h-100" alt="...">
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12 cols-md-7 col-lg-7 product-text rounded-end">
+                                        <div class="card-body my-2">
+                                            <h1 class="card-title fs-4 fw-bold text-white fst-italic">Redtape Footwear
+                                            </h1> <br>
+                                            <p class="card-subtitle mb-2 fs-5 text-white">Are you looking for a pair of
+                                                shoes that are both comfortable and stylish? We are here to assist you!
+                                            </p>
+                                            <h5 class="card-text text-white fw-bold">Price : 20$</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12 col-md-5 col-lg-5 an rounded-start">
+                                        <img src="https://i.postimg.cc/rp7nXcTM/shoe-5-reebook-removebg-preview.png"
+                                            class="img-fluid w-100 h-100" alt="...">
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12 cols-md-7 col-lg-7 product-text rounded-end">
+                                        <div class="card-body my-2">
+                                            <h1 class="card-title fs-4 fw-bold text-white fst-italic">Reebook Footwear
+                                            </h1> <br>
+                                            <p class="card-subtitle mb-2 fs-5 text-white">Are you looking for a pair of
+                                                shoes that are both comfortable and stylish? We are here to assist you!
+                                            </p>
+                                            <h5 class="card-text  fw-bold text-white">Price : 20$</h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12 col-md-5 col-lg-5 an rounded-start">
+                                        <img src="https://i.postimg.cc/Wbp7ytZ0/shoe-6-puma-removebg-preview.png"
+                                            class="img-fluid w-100 h-100" alt="...">
+                                    </div>
+
+                                    <div class="col-sm-6 col-xs-12 cols-md-7 col-lg-7 product-text rounded-end">
+                                        <div class="card-body my-2">
+                                            <h1 class="card-title fs-4 fw-bold text-white fst-italic">Puma Footwear
+                                            </h1> <br>
+                                            <p class="card-subtitle mb-2 fs-5 text-white">Are you looking for a pair of
+                                                shoes that are both comfortable and stylish? We are here to assist you!
+                                            </p>
+                                            <h5 class="card-text text-white fw-bold">Price : 20$</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button type="button"
+                    class="common-bg-color fs-5 border-0 px-5 py-3 rounded mt-5  text-white ms-auto me-auto fw-bold btn-lg d-block">See
+                    More Courses</button> -->
+            </div>
+        </section>
+        <!-- courses section ends -->
+
+        <!-- About part starts -->
+        <section class="container">
+            <div class="about" id="about">
+                <div class="image">
+                    <img src="https://i.postimg.cc/bJdm2Wws/The-Perfect-About-Us-Page-Feature-750x499-removebg-preview.png"
+                        class="img-fluid">
+                </div>
+                <div class="aboutcontent">
+                    <h2 class="mt-lg-5">About Us</h2>
+                    <p class="fw-bold">At Footwear House, we're passionate about footwear and dedicated to providing
+                        comfortable and
+                        stylish shoes for every occasion.<br> We understand the importance of finding the perfect pair
+                        of
+                        shoes and believe that every step should be taken in comfort and style.<br> Our team of experts
+                        is
+                        dedicated to designing shoes that meet the needs of every customer, using only the best
+                        materials and the latest technologies in our footwear.</p>
+                    <ul class="links">
+                        <li><a href="#">work</a></li>
+                        <div class="vertical-line"></div>
+                        <li><a href="#product">Products</a></li>
+                        <div class="vertical-line"></div>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </section><br><br>
+
+
+        <!-- About part ends -->
+
+        <section class="container mt-5" id="contact">
+            <div class="text-center">
+                <h1 class="display-5 fw-bold">Contact Us
+                </h1>
+            </div>
+            <div class="containe">
+
+                <div class="form">
+                    <div class="contact-info">
+                        <h3 class="title">Let's get in touch</h3>
+                        <p class="text">
+                            We're eager to connect with you and provide the best possible service.
+                        </p>
+
+                        <div class="info">
+                            <div class="information">
+
+                                <p>Office 41, Mohakhali DOHS,Dhaka, Bangladesh</p>
+                            </div>
+                            <div class="information">
+
+                                <p>footwear@gmail.com</p>
+                            </div>
+                            <div class="information">
+
+                                <p>123-456-789</p>
+                            </div>
+                        </div>
+
+                        <div class="social-media">
+                            <p>Connect with us :</p>
+                            <div class="social-icons">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div><br>
+
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+
+                        <form action="index.html" autocomplete="off">
+                            <h3 class="title">Contact us</h3>
+                            <div class="input-container">
+                                <input type="text" name="name" class="input" />
+                                <label for="">Username</label>
+                                <span>Username</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="email" name="email" class="input" />
+                                <label for="">Email</label>
+                                <span>Email</span>
+                            </div>
+                            <div class="input-container">
+                                <input type="tel" name="phone" class="input" />
+                                <label for="">Phone</label>
+                                <span>Phone</span>
+                            </div>
+                            <div class="input-container textarea">
+                                <textarea name="message" class="input"></textarea>
+                                <label for="">Message</label>
+                                <span>Message</span>
+                            </div>
+                            <input type="submit" value="Send" class="btn" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer-section-starts -->
+    <section class="footer-sec container-fluid mt-5">
+        <footer class="bg-dark text-center ">
+            <div class="container py-1">
+                <div class="mt-5 text-white">
+                    <h1 class="fs-2">Footwear House</h1>
+                    <p class="fs-6">Office 41, Mohakhali DOHS,</p>
+                    <p class="fs-6">Dhaka, Bangladesh</p>
+                    <p class="fs-6">Privacy Policy | Terms of us</p>
+                </div>
+                <!-- Social media part starts -->
+                <div class="mb-5">
+                    <a class="btn btn-dark shadow-lg bg-dark bg-gradient rounded-5 px-3 fs-4 fw-bold" target="_blank"
+                        href="https://www.facebook.com/10minuteschool" role="button"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a class="btn btn-dark shadow-lg bg-dark bg-gradient rounded-5 px-3 fs-4 fw-bold" target="_blank"
+                        href="https://10ms.io/youtube-official" role="button"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="btn btn-dark shadow-lg bg-dark bg-gradient rounded-5 px-3 fs-4 fw-bold" target="_blank"
+                        href="https://www.instagram.com/10ms_insta/?fbclid=IwAR3gwt8SWZm3JR1vRFmwn2q9-8JGWKcq0-iwlZKz82PjSVxym2PCQYt9izQ"
+                        role="button"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-dark shadow-lg bg-dark bg-gradient rounded-5 px-3 fs-4 fw-bold" target="_blank"
+                        href="
+                        https://10ms.io/10ms-linkedIn" role="button"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="btn btn-dark shadow-lg bg-dark bg-gradient rounded-5 px-3 fs-4 fw-bold" target="_blank"
+                        href="https://github.com/ProgrammingHero1" role="button"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!-- Social media part ends -->
+            </div>
+        </footer>
+    </section>
+    <!-- footer-section-ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <Script Src="App.js"></Script>
+
+</body>
+
+</html>
